@@ -1,0 +1,74 @@
+.App {
+  min-height: 100vh;
+  min-width: 100%;
+  background: url('imgs/loginbg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.bg_overlay {
+  min-height: 100vh;
+  min-width: 100%;
+  background: rgba(33, 10, 89, 0.80);
+}
+.appNameDiv{
+  text-align: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.NoteBox{
+  background: rgba(255, 255, 255, 0.6);
+  padding: 10px 20px;
+  border-bottom: 2px solid white;
+}
+.midcontent{
+  float: none;
+  margin: 0 auto;
+}
+.NoteForm {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+}
+.addButton{
+  text-align: center;
+}
+.closebtn {
+  font-size: 68px;
+  align-self: auto;
+  position: relative;
+  z-index: 98;
+  left: 40%;
+  color: rgba(255, 0 , 0, 0.5);
+  display: none;
+}
+.checkbtn {
+  font-size: 68px;
+  align-self: auto;
+  position: relative;
+  z-index: 98;
+  left: 46%;
+  color: rgba(0, 255 , 0, 0.5);
+  display: none;
+}
+.cogbtn {
+  font-size: 28px;
+  align-self: auto;
+  float: right;
+  color: purple;
+}
+.cogbtn:hover {
+  font-size: 28px;
+  color: black;
+}
+.loginform {
+  margin-top: 25%;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgba(0, 0, 0, 0.6);
+}
+.logincard {
+  padding: 10px 20px;
+  
+}
+.accountNote {
+  color: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
